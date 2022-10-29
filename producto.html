@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Producto</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>Registro de producto</h1>
+    <hr>
+    <h4>Codigo</h4>
+        <input type="number"  id="txt">
+    <br><br><br>
+    <h4>Descripción</h4>
+        <textarea name="message" rows="4" cols="50">Ingrese la descripcion del producto</textarea>
+    <br><br>
+    <h4>Codigo de barra</h4>
+        <input type="number" id="txt">
+    <br><br>
+    <h4>Precio unitario</h4>
+        <input type="number" id="txt">
+    <br><br>
+    <h4>Stock</h4>
+        <input type="number" id="txt">
+    <br><br>
+    <h4>Proveedor</h4>
+        <input type="text" id="txt">
+    <br><br><br>
+    <h4>Estado</h4>
+        <input type="radio">
+        <label for="activo">Activo</label><br>
+    <br><br>
+    <h4>Categoria</h4><br>
+    <select name="categoria">
+        <option value="cat_1">Categoria 1</option>
+        <option value="cat_2">Categoria 2</option>
+        <option value="cat_3">Categoria 3</option>
+        <option value="cat_4">Categoria 4</option>
+    </select>
+    <br><br><br>
+    <button type="button" id="btn-1" onclick="alert('DATOS GUARDADOS EXITOSAMENTE')">GUARDAR</button>
+    <a href="/index.html"><button type="button" id="btn-2">CANCELAR<a href="/index.html"></a></button></a>   
+</body>
+</html>
